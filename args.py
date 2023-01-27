@@ -6,3 +6,4 @@ parser.add_argument('--fz-dir', type= str, default='./Foggy_Zurich/Foggy_Zurich/
 parser.add_argument('--cityscape-dir', type= str, default='./Cityscape/train')
 parser.add_argument('--cityscape-fog-dir', type= str, default='./Cityscape_foggy/')
 parser.add_argument('--output-dir', type = str, default='./output')
+parser.add_argument('--dataset', type = str, default='RGB')
